@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-# str = "= 0x"
 def print_hex(i):
     hex_value = hex(i)[2:]
     print(i, end=" = 0x")
