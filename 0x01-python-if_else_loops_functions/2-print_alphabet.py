@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    char = chr(i)
-    print(char, end="")
+for ascii_value in range(97, 123):
+    character = chr(ascii_value)
+    print("{}".format(character), end="")
     
