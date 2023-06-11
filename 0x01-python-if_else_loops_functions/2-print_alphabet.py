@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-str = 'abcdefghijklmnopqrstuvwxyz'
-for i in str:
-    print(i, end="\0")
+for i in range(97, 123):
+    char = chr(i)
+    print(char, end="")
+    
